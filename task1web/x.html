@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+        th {
+            padding: 10px;
+        }
+            </style>
+        
+        <body>
+          <form>
+            <div>
+                <label>Username:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                <input type="text" required>
+            </div>
+            <br>
+            <div>
+                <label>Password:</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+                <input type="password" required>
+            </div>
+            <div>
+                <label>City of<br> Employment:</label>&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+                <input type=" text">
+            </div>
+            <br>
+            <div>
+                <label name="Web server">Web server:</label>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <select name="Web server" id="Web server" placeholder="-Choose a server-">
+                    <option value="" disabled selected>--Choose a server--</option>
+                    <option value="1">Apache</option>
+                    <option value="2">Nginx</option>
+                    <option value="3">IIS</option>
+                    <option value="4">LiteSpeed</option>
+                    <option value="5">Lighttpd</option>
+                    <option value="6">Jagsaw</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Please specify<br>your role:</label>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="radio" name="role" value="Admin">
+                <lable>Admin</lable>
+                <br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" name="role" value="Engineer">
+                <lable>Engineer</lable>
+                <br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" name="role" value="Manager">
+                <lable>Manager</lable>
+                <br>
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="radio" name="role" value="Guest">
+                <lable>Guest</lable>
+            </div>
+            <br>
+            <div>
+                <label>Single sign-on<br>to the following:</label>
+                 &nbsp <input type="checkbox" name="sign" value="Mail">
+                <lable>Mail</lable>
+                <br>
+                  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="checkbox" name="sign" value="Payroll">
+                <lable>Payroll</lable>
+                <br>
+                   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="checkbox" name="sign" value="Self-service">
+                <lable>Self-service</lable>
+                <br>
+                <br>         
+                &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp<input type="submit" value="Login">
+             <input type="reset" value="Reset">
+            
+          </form>
+          <br><br>
+          <table style="width:30%">
+            <thead>
+             <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+             </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Priya</td>
+                    <td>Sharma</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Arun</td>
+                    <td>Singh</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Sam</td>
+                    <td>Watson</td>
+                    <td>41</td>
+                </tr>
+            </tbody>
+          </table>
+            
+        </body>
+    </head>
+</html>
